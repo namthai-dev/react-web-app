@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# react-web-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Code structure
+
+```
+├── public          # Static files
+└── src
+    ├── assets      # Store icons, fonts
+    ├── components  # Store components in multiple widgets
+    ├── widgets     # Store widgets in multiple pages
+    ├── pages       # Store pages
+    ├── store       # React-Redux state management
+    │   ├── actions
+    │   └── reducers
+    ├── services    # Store service from server or third party
+    ├── stories     # Storybook
+    ├── constants   # Store global constants
+    ├── types       # Store custom types
+    └── utils       # Store utilities
+```
 
 ## Available Scripts
 
@@ -39,8 +56,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `npm lint`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run lint code checking
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm lint:fix`
+
+Run fix lint errors
