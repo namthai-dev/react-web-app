@@ -63,3 +63,7 @@ Run lint code checking
 ### `npm lint:fix`
 
 Run fix lint errors
+
+## Screenshots:
+
+![image](https://github.com/namthai-dev/react-web-app/assets/102452878/937adc95-0906-4c8f-a12e-9398b4a7a96d)
