@@ -1,0 +1,24 @@
+.app {
+	@apply leading-normal 
+  tracking-normal 
+  text-indigo-400 
+  bg-cover 
+  bg-fixed 
+  bg-[url('background.png')];
+}
+
+.app__header {
+	@apply w-full 
+  container 
+  mx-auto;
+}
+
+.app__main {
+	@apply h-full;
+}
+
+.app__footer {
+	@apply flex
+  flex-col
+  items-center;
+}

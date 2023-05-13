@@ -1,0 +1,16 @@
+.footer {
+	@apply w-fit 
+  pt-16 
+  pb-6 
+  text-sm 
+  text-center 
+  md:text-left
+  flex
+  gap-1;
+}
+
+.footer > a {
+	@apply text-gray-500 
+  no-underline 
+  hover:no-underline;
+}
